@@ -1,0 +1,25 @@
+# Dependencies (Never push this! It is huge and can be re-installed with npm install)
+node_modules/
+
+# Production build output
+dist/
+dist-ssr/
+
+# Local environment and cache files
+.env
+.env.local
+.env.*.local
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Editor folders
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
